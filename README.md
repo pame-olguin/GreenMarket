@@ -24,7 +24,10 @@ GreenMarket/
 ├── pom.xml
 ├── README.md
 └── src/
-└── test/java/com/greenmarket/
+└── test/
+└── java/
+└── com/
+└── greenmarket/
 ├── base/
 │ └── BaseTest.java
 └── tests/
@@ -62,7 +65,7 @@ target/site/surefire-report.html
 
 ---
 
-## Notas técnicas
+Notas técnicas
 
 El archivo BaseTest.java configura la URL base de la API:
 RestAssured.baseURI = "https://690e0883bd0fefc30a033951.mockapi.io/api/v1";
