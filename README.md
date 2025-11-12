@@ -21,18 +21,22 @@ Permite validar los endpoints REST de forma eficiente y generar reportes automá
 ### 📁 Estructura de carpetas
 
 GreenMarket/
+
 ├── pom.xml
+
 ├── README.md
+
 └── src/
-└── test/
-└── java/
-└── com/
-└── greenmarket/
-├── base/
-│ └── BaseTest.java
-└── tests/
-└── UserTest.java
----
+
+    └── test/java/com/greenmarket/
+    
+        ├── base/
+        
+        │   └── BaseTest.java
+        
+        └── tests/
+        
+            └── UserTest.java
 
 ## 🚀 Ejecución de las pruebas
 
@@ -40,7 +44,7 @@ GreenMarket/
 
 Asegúrate de estar en la raíz del proyecto (donde está el `pom.xml`) y ejecuta:
 
-```bash
+bash
 mvn clean test
 
 ---
